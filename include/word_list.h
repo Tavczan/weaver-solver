@@ -30,6 +30,7 @@ void print_word_list(struct word_element *list);
 struct word_element * free_word_list(struct word_element *list);
 /* Makes a numbered table from a list */
 char (*tablearize_word_list(struct word_element *list))[5];
-
+/* Returns a node ID by searching for a string*/
+int get_node_id_by_string(char (*words)[5], int length, char *seek);
 
 #endif

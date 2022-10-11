@@ -4,7 +4,7 @@
 #define DIJKSTRA_INFINITY 9999999
 #define DIJKSTRA_PATH_ROOT -1
 
-#include "../datastructures/word_graph.h"
+#include "word_graph.h"
 
 struct path_data_dijkstra {
     int visited;

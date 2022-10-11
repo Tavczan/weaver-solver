@@ -2,14 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "./datastructures/word_list.c"
-#include "./datastructures/word_list.h"
-
-#include "./datastructures/word_graph.c"
-#include "./datastructures/word_graph.h"
-
-#include "./solver/weaver_solver.c"
-#include "./solver/weaver_solver.h"
+#include "word_list.h"
+#include "word_graph.h"
+#include "weaver_solver.h"
 
 int main(int argc, char **argv)
 {

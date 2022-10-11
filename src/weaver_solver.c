@@ -1,12 +1,11 @@
 #ifndef WEAVER_SOLVER_C
 #define WEAVER_SOLVER_C
 
-#include "weaver_solver.h"
-#include "../weaver/weaver.h"
 #include <stdlib.h>
 
+#include "weaver_solver.h"
+#include "weaver.h"
 #include "dijkstra_solver_helpers.h"
-#include "dijkstra_solver_helpers.c"
 
 int *solve_dijkstra (struct word_graph_node *graph, int graphSize, char (*words)[5], int word_a, int word_b, int *steps)
 {

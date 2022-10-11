@@ -3,7 +3,8 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "../weaver/weaver.c"
+
+#include "weaver.h"
 #include "word_graph.h"
 
 struct word_graph_node *make_graph_node()

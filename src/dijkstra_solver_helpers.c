@@ -1,9 +1,10 @@
 #ifndef DIJKSTRA_SOLVER_C
 #define DIJKSTRA_SOLVER_C
 
-#include "dijkstra_solver_helpers.h"
-
 #include <stdlib.h>
+#include <stdio.h>
+
+#include "dijkstra_solver_helpers.h"
 
 int get_next_node (struct word_graph_node *graph, int graphSize)
 {
